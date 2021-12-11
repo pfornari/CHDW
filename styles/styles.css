@@ -23,6 +23,33 @@ h6 {
     color: black;
 }
 
+.miNavBar {
+    background-color: white;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item a:hover{
+    color: green;
+}
+
+.dropdown-menu {
+    background-color: white;
+    border: solid 1px black;
+}
+
+.dropdown-menu .dropdown-item{
+    border: none;
+}
+
+.dropdown-menu .dropdown-item:hover{
+    color: green;
+}
+
+
 a {
     color: black;
     text-decoration: none;
