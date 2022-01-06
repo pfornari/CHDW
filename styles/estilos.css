@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden; }
+
+.sticky-top {
+  z-index: 999; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #0095ff;
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 40px;
+  font-family: "Roboto Slab", serif;
+  color: black; }
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 0 5%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10; }
+  .headerMenu {
+    width: 40%; }
+    .headerMenu ul {
+      list-style: none;
+      display: flex;
+      width: 100%; }
+
+.miNavBar {
+  background-color: white; }
+  .miNavBar a {
+    text-decoration: none;
+    color: black; }
+    .miNavBar a :hover {
+      color: green; }
+  .miNavBar Font {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif; }
+
+.dropdown-menu {
+  background-color: white;
+  border: solid 1px black; }
+
+.dropdown-menu .dropdown-item {
+  border: none; }
+
+.dropdown-menu .dropdown-item:hover {
+  color: green; }
+
+@media screen and (max-width: 768px) {
+  .box1 {
+    display: none; }
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px; }
+  .footerRow {
+    flex-direction: column;
+    align-items: center; }
+  .footerMenu {
+    margin-bottom: 50px; }
+  p {
+    font-size: smaller; } }
+
+@media screen and (max-width: 480px) {
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 100px; }
+  .footerSocial img {
+    height: 40px; }
+  p {
+    font-size: x-small; } }

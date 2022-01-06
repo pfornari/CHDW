@@ -1,0 +1,40 @@
+@media screen and (max-width: 768px) {
+    .box1 {
+      display: none;
+    }
+  
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 100px;
+    }
+  
+    .footerRow {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .footerMenu {
+      margin-bottom: 50px;
+    }
+  
+    p {
+      font-size: smaller;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .gridContainer {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-auto-rows: 100px;
+    }
+  
+    .footerSocial img {
+      height: 40px;
+    }
+  
+    p {
+      font-size: x-small;
+    }
+  }  

@@ -1,0 +1,17 @@
+.miNavBar {
+    background-color: white;
+
+    a {
+        text-decoration: none;
+        color: black;
+
+        :hover {
+            color: green;
+        }
+    }
+
+    Font {
+        font-size: 12px;
+        font-family: "Roboto", sans-serif;
+    }
+}
