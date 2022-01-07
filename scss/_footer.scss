@@ -1,0 +1,32 @@
+.footer {
+    background-color: white;
+    color: red;
+    font-size: 10px;
+    padding: 50px 0;
+
+    &Menu {
+        display: flex;
+
+        ul {
+            list-style: none;
+            li {
+                margin-top: 5px;
+              }
+        }
+    }
+
+    &Row {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    &Social a:not(:first-child) {
+        margin-left: 10px;
+    }
+        
+    &Social img {
+            height: 40px;
+    }
+}

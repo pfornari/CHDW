@@ -2,7 +2,7 @@
     position: fixed;
     width: 100%;
     padding: 0 5%;
-    background-color: white;
+    background-color: $colorBC;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,29 @@
         ul {
             list-style: none;
             display: flex;
+            justify-content: space-between;
             width: 100%;
+
+            li {
+                width: 25%;
+                display: inline-block;
+
+                :hover {
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    &logo {
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 5px;
+
+        img {
+            width: 150px;
+            filter: brightness();
         }
     }
   }

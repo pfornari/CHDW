@@ -1,0 +1,48 @@
+.logo {
+    width: 140px;
+    padding-bottom: 4px;
+    margin-left: 13px;
+}
+  
+a {
+    color: $colorBG;
+    text-decoration: none;
+}
+  
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+    color: $colorBG;
+}
+  
+.containerDisplay {
+    max-width: 1390px;
+    margin: auto;
+    max-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    
+    img {
+        width: 96%;
+        height: 100%;
+        object-fit: cover;
+        transform-origin: center;
+        transform: perspective(800px) rotateY(25deg);
+        transition: $trans-500;
+
+        :hover {
+            transform: perspective(800px) rotateY(0deg);
+            opacity: 1;
+        }
+    }
+
+    &:hover img {
+        opacity: 0.5;
+    }
+ }
+  
+.collections {
+    font-size: $font-24;
+    padding-top: 95px;
+    font-family: 'Roboto','sans-serif';
+}

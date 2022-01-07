@@ -1,0 +1,75 @@
+.empresa {
+    height: 410px;
+    background-color: $colorBC;
+  }
+  
+.secciones {
+    margin: 100px 0;
+    padding: 0 100px;
+}
+
+.empresa {
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: $colorEmpresa;
+    font-size: $font-18;
+    line-height: 1.5;  
+}
+
+.seccionImagen {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    animation-duration: 3s;
+    animation-name: servicios;
+}
+  
+.seccionHeader {
+    background-color: $colorBC;
+    color: $colorAC;
+    font-size: $font-24;
+    text-align: center;
+}
+  
+.seccionEmpresa {
+    text-align: justify;
+    line-height: 1.2;
+    color: $colorEmpresa;
+    font-size: $font-24;
+}
+  
+.seccionHistoria {
+    padding-top: 3rem;
+    text-align: justify;
+    line-height: 1.3;
+    color: $colorAC;
+    font-size: $font-24;
+}
+  
+.seccionClientes {
+    padding-top: 7rem;
+    text-align: justify;
+    line-height: 1.3;
+    background-color: $colorBC;
+    color: $colorAC;
+    font-size: $font-24;
+}
+  
+.seccionServicios {
+    padding-top: 7rem;
+    text-align: justify;
+    line-height: 1.3;
+    color: $colorEmpresa;
+    font-size: $font-24;
+}
+
+.seccionContacto {
+    text-align: justify;
+    line-height: 1.5;
+    background-color: $colorBC;
+    color: $colorEmpresa;
+    font-size: $font-24;
+}

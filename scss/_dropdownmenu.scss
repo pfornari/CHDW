@@ -1,6 +1,6 @@
 .dropdown-menu {
-    background-color: white;
-    border: solid 1px black;
+    background-color: $colorBC;
+    border: solid 1px $colorBG;
   }
   
   .dropdown-menu .dropdown-item {
@@ -8,5 +8,5 @@
   }
   
   .dropdown-menu .dropdown-item:hover {
-    color: green;
+    color: $colorAC;
   }  
