@@ -1,0 +1,445 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+.sticky-top {
+  z-index: 999;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 2rem;
+  text-align: center;
+  padding: 40px;
+  font-family: "Roboto Slab", serif;
+  color: black;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  padding: 0 5%;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 10;
+}
+
+.headerMenu {
+  width: 40%;
+}
+
+.headerMenu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.headerMenu ul li {
+  width: 25%;
+  display: inline-block;
+}
+
+.headerMenu ul li :hover {
+  font-weight: bold;
+}
+
+.headerlogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 5px;
+}
+
+.headerlogo img {
+  width: 150px;
+  -webkit-filter: brightness();
+          filter: brightness();
+}
+
+.miNavBar {
+  background-color: white;
+}
+
+.miNavBar a {
+  text-decoration: none;
+  color: black;
+}
+
+.miNavBar a :hover {
+  color: green;
+}
+
+.miNavBar Font {
+  font-size: 0.75rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.dropdown-menu {
+  background-color: white;
+  border: solid 1px black;
+}
+
+.dropdown-menu .dropdown-item {
+  border: none;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  color: green;
+}
+
+.logo {
+  width: 140px;
+  padding-bottom: 4px;
+  margin-left: 13px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .nav-link:focus {
+  color: black;
+}
+
+.containerDisplay {
+  max-width: 1390px;
+  margin: auto;
+  max-height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0px;
+}
+
+.containerDisplay img {
+  width: 96%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: perspective(800px) rotateY(25deg);
+          transform: perspective(800px) rotateY(25deg);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.containerDisplay img :hover {
+  -webkit-transform: perspective(800px) rotateY(0deg);
+          transform: perspective(800px) rotateY(0deg);
+  opacity: 1;
+}
+
+.containerDisplay:hover img {
+  opacity: 0.5;
+}
+
+.collections {
+  font-size: 1.5rem;
+  padding-top: 95px;
+  font-family: 'Roboto','sans-serif';
+}
+
+.empresa {
+  height: 410px;
+  background-color: white;
+}
+
+.secciones {
+  margin: 100px 0;
+  padding: 0 100px;
+}
+
+.empresa {
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: blue;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.seccionImagen {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: servicios;
+          animation-name: servicios;
+}
+
+.seccionHeader {
+  background-color: white;
+  color: green;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.seccionEmpresa {
+  text-align: justify;
+  line-height: 1.2;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.seccionHistoria {
+  padding-top: 3rem;
+  text-align: justify;
+  line-height: 1.3;
+  color: green;
+  font-size: 1.5rem;
+}
+
+.seccionClientes {
+  padding-top: 7rem;
+  text-align: justify;
+  line-height: 1.3;
+  background-color: white;
+  color: green;
+  font-size: 1.5rem;
+}
+
+.seccionServicios {
+  padding-top: 7rem;
+  text-align: justify;
+  line-height: 1.3;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.seccionContacto {
+  text-align: justify;
+  line-height: 1.5;
+  background-color: white;
+  color: blue;
+  font-size: 1.5rem;
+}
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item {
+  width: 100%;
+}
+
+.gridContainer {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(100px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 150px;
+  gap: 5px;
+      grid-template-areas: "img1 img2 img3 img4";
+}
+
+.gridItem {
+  height: 80%;
+  width: 100%;
+  background-color: white;
+  border: none;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 2%;
+          column-gap: 2%;
+  row-gap: 5%;
+}
+
+.img1 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img2 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img3 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img4 {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.Formulario input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border: 0px solid;
+  border-radius: 10px;
+  padding-left: 10px;
+  -webkit-transition: all 300ms;
+  transition: all 300ms;
+}
+
+.Formulario input[type="submit"] {
+  background-color: #2eb87e;
+  color: white;
+  width: 50%;
+  padding: 0;
+}
+
+.Formulario input[type="text"]:focus {
+  border: 2px solid green;
+  background-color: #c8ffd4;
+}
+
+.img-size {
+  width: 250px;
+  height: 200px;
+}
+
+form {
+  text-align: center;
+}
+
+.footer {
+  background-color: white;
+  color: red;
+  font-size: 10px;
+  padding: 50px 0;
+}
+
+.footerMenu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footerMenu ul {
+  list-style: none;
+}
+
+.footerMenu ul li {
+  margin-top: 5px;
+}
+
+.footerRow {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footerSocial a:not(:first-child) {
+  margin-left: 10px;
+}
+
+.footerSocial img {
+  height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .box1 {
+    display: none;
+  }
+  .gridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100px;
+  }
+  .footerRow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footerMenu {
+    margin-bottom: 50px;
+  }
+  p {
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .gridContainer {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: 100px;
+  }
+  .footerSocial img {
+    height: 40px;
+  }
+  p {
+    font-size: x-small;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
